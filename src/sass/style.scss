@@ -15,7 +15,18 @@
     margin: 0 auto;
 }
 
+.divider {
+    display: block;
+    width: 60px;
+    margin: 25px auto 0 auto;
+    height: 3px;
+    background-color: $main-color;
+}
+
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/button';
 @import 'blocks/sidepanel';
+@import 'blocks/menu';
+@import 'blocks/aboutme';
+@import 'blocks/resume';
